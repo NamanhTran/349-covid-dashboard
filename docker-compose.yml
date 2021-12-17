@@ -1,7 +1,7 @@
 
 version: '3'
 services:
-    xclipper:
+    covid-dashboard:
         build: .
         restart: 'always'
         ports:
