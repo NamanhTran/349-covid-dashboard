@@ -6,7 +6,8 @@ import USMap from './USMap';
 import WorldMap from './WorldMap';
 import Sources from './Sources';
 //import Loading from './Components/Loading';
-import Covid from './Components/Covid';
+import WorldCovidTable from './Components/Covid';
+import USCovidTable from './Components2/Covid'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
         <Route path="/world" element={<WorldMap />} />
         <Route path="/uscases" element={<USMap />} />
         <Route path="/sources" element={<Sources />} />
-        <Route path="/covid" element={<Covid/>} /> 
+        <Route path="/worldcovidtable" element={<WorldCovidTable/>} /> 
+        <Route path="/uscovidtable" element={<USCovidTable/>} />
       </Routes>
     </Router>
     {/* <Loading/> */}

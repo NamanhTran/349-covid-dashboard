@@ -30,7 +30,7 @@ const NavBar = () => {
                 </Typography>
 
                 <Typography variant="h6">
-                    <Button className={classes.button} component={NavLink} to="/covid" color="inherit" disableRipple={true}>
+                    <Button className={classes.button} component={NavLink} to="/worldcovidtable" color="inherit" disableRipple={true}>
                         World Statistic Table
                     </Button>
                 </Typography>
@@ -38,6 +38,12 @@ const NavBar = () => {
                 <Typography variant="h6">
                     <Button className={classes.button} component={NavLink} to="/uscases" color="inherit" disableRipple={true}>
                         US Cases
+                    </Button>
+                </Typography>
+
+                <Typography variant="h6">
+                    <Button className={classes.button} component={NavLink} to="/uscovidtable" color="inherit" disableRipple={true}>
+                        Daily US Statistic Table
                     </Button>
                 </Typography>
 
