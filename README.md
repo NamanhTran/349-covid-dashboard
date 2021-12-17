@@ -2,7 +2,7 @@
 
 A dashboard that displays world and United States Covid-19 statistics.
 
-Currently hosted at http://35.197.34.220:3000
+Currently hosted at http://34.145.96.82:3000
 
 ## Getting Started
 
